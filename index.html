@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+	<meta name=”description” content=”Página portifólio de Ismael Mauricio de Oliveira”/>
+	<meta name=”keywords” content=”www, github, portifólio”/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./logos/logo-gym.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Gym Workout</title>
+</head>
+<body>
+    <header id="up">
+        <div class="logo-gym">
+            <a onclick="go('#up')">
+                <span class="logo1">Gym</span>
+                <span class="logo2">Workout</span>            
+            </a>
+        </div>
+
+        <div class="sandwich">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+
+        <nav class="menu-options">
+            <ul>
+                <li><a onclick="go('#partners')">Parceiros</a></li>
+                <li><a onclick="go('#contact')">Contatos</a></li>
+                <li><a onclick="go('#price')">Preços</a></li>
+                <li><a href="https://gym-work.herokuapp.com/login">Login</a></li>
+            </ul>
+        </nav>                  
+
+    </header>
+    <div class="container-fluid top flex">
+        <section class="container">
+        </section>
+    </div>  
+
+    <div class="container-fluid git flex" >
+        <section class="container">
+            <a>
+            <img src="./img/logo-gym.jpg" alt="Logo da nossa empresa">
+            <h2>Estamos prontos para gerenciar sua academia de uma forma inteligente.</h2>
+            </a>
+        </section>
+    </div>  
+
+    <div class="container-fluid about flex" id="about">
+        <section class="container">
+            <p class="p-title">About</p>
+            <h2>Um pouco do nosso trabalho</h2>
+            <div class="about-content">
+                <p>
+                    <img src="./img/logo-gym.jpg"  alt="Foto do logo da empresa">                    
+                </p>
+
+                <p>
+                    Portal online com foco total dos alunos, sem mais a utilização de processos manuais de gerenciamento e burocracias desnecessárias; 
+                    Obtendo métricas de frequência e perfomance dos alunos;
+                    Criando uma visão com níveis de saúde e datas de revisões dos equipamentos; 
+                </p>
+            </div>
+        </section>
+    </div> <!--Fim div about-->
+    
+    <div class="container-fluid projects flex" id="partners">
+        <section class="container">
+            <p class="p-title">Parceiros</p>
+            <h2>Alguns dos nossos Parceiros</h2>
+            <div class="card">
+                <img src="./img/suplementos.jpg" alt="Parceiro de suplementos">                    
+            </div>
+
+            <div class="card">
+                <img src="./img/planilha.jpg" alt="Site como montar sua planilha de corrida." >                    
+            </div>  
+            
+            <div class="card">
+                <img src="./img/tenis-world.jpg" alt="Parceiro de tenis">                    
+            </div>               
+        </section>
+    </div> 
+
+    <div class="container-fluid projects flex" id="portifolio">
+        <section class="container">
+            <p class="p-title">Colaboradores</p>
+            <h2>Alguns dos nossos colaboradores</h2>
+            <div class="card">
+                <img src="./img/dev.jpg" alt="Desenvolvimento web">                    
+            </div>
+
+            <div class="card">
+                <a href="https://ismael-oliveira.github.io/app-corrida" target="_blank">
+                    <img src="./img/mk-digital.jpg" alt="Marketing digital." >                    
+                </a>
+            </div>  
+            
+            <div class="card">
+                <a href="https://ismael-oliveira.github.io/game-dev" target="_blank">
+                    <img src="./img/mt-digital.jpg" alt="Maturidade digital da sua empresa.">                    
+                </a>
+            </div>   
+            
+        </section>
+    </div> 
+
+    <div class="container-fluid about flex" id="price">
+        <section class="container">
+            <p class="p-title">Preços</p>
+            <h2>Concerteza teremos ótimos preços para a sua academia</h2>
+            <div class="about-content">
+                <p>
+                    <img src="./img/logo-gym.jpg"  alt="Foto do logo da empresa">                    
+                </p>
+
+                <p>
+                    Basta entrar em contato com a nossa empresa por email ou 
+                    telefone que informaremos todos os planos disponíveis.  
+                </p>
+            </div>
+        </section>
+    </div> <!--Fim div about-->
+
+    <footer>
+        <div class="contact-info" id="contact">
+            <div class="contact-card">
+                <div class="contact-card-header">
+                    <a href="https://www.google.com/maps/?q=cachoeirademinas" target="_blank">
+                        <img src="./img/local-ico.jpg" height="50px" alt="ìcone de localização">
+                    </a>
+                    <p>Onde me encontrar</p>
+                </div>
+                <div class="contact-card-body">
+                    <p>Cachoeira de Minas MG, Bairro Alto das Cruzes</p>
+                </div>
+            </div>
+            <div class="contact-card">
+                <div class="contact-card-header">
+                    <img src="./img/email-ico2.jpg"  alt="Ícone de email">
+                    <p>Email</p>
+                </div>
+
+                <div class="contact-card-body">
+                    <p>madeonroca@gmail.com</p>
+                </div>
+            </div>
+            <div class="contact-card">
+                <div class="contact-card-header">
+                    <img src="./img/phone-ico2.jpg" alt="Ícone telefone">
+                    <p>Ligue para mim.</p>
+                </div>
+                <div class="contact-card-body">
+                    <p>(35) 99957-9984</p>
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="social">
+                <a href="https://www.facebook.com/Ismael.Mauricio.Oliveira" target="_blank"></a>
+                <a href="https://www.linkedin.com/in/ismael-oliveira-51065a116/" target="_blank"></a>
+            </div>
+            <div class="copy-right">
+                &copy;Copyrights <strong>Gym Workout.</strong><small> Todos os direitos reservados.</small>
+            </div>            
+        </div>
+    </footer>
+
+    <div class="smoothscroll">
+        <a onclick="go('#up')">&#171;</a>
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>

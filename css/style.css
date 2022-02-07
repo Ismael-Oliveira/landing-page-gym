@@ -1,0 +1,593 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+.html {
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+.border {
+    border : 1px solid red;
+}
+
+.logo1 {
+    color:#FDDC41;
+    cursor: pointer;
+}
+
+.logo2 {
+    color:#5786CA;
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 3.6em;
+}
+
+h1, h2 {
+    font-family: 'Comic Neue', cursive, sans-serif;
+}
+
+.container-fluid {
+    width: 100%;
+}
+
+.container {
+    width: 80%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.relative {
+    position: relative;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.p-title {
+    color: magenta;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    letter-spacing: 0.3em;
+    font-weight: bold;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    text-decoration: none;
+    list-style: none;
+}
+
+.menu-options {
+    display: flex;
+    justify-content: end;
+    position: absolute;
+    right: 21px;
+    padding-left: 5px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: rgba(5, 5, 5, 0.8);
+    padding: 10px;
+    height: 60px;
+    top: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    font-size: 1.3em;
+}
+
+header nav ul li {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 2;
+    font-size: 1.5em;
+}
+
+header nav ul li:hover {
+    border: 1px solid #CCC;
+    color: #CCC !important;
+}
+
+header nav ul li a {
+    color: blanchedalmond;
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+}
+
+.change {
+    display: block;
+}
+
+.sandwich {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    margin-left: 10px;
+    margin-right: 50px;
+    padding: 5px;
+    border: 1px solid #666;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.bar {
+    width: 30px;
+    border-top: 3px solid #DDD;
+    margin: 4px 0px;
+}
+
+/* header ul {
+    background-color: #333;
+} */
+
+.top {
+    margin-top: 78px;
+    height: 450px; /* You must set a specified height */
+	background:url("../img/gym-online.jpg") center no-repeat;
+	box-shadow:0 2px 5px #000; 
+	text-align:center;
+	background-size: 100% 100%;
+}
+
+.top section {
+    color: rgb(212, 177, 124);
+    /* color: blanchedalmond; */
+    text-align: center;
+}
+
+.top section h1 {
+    font-size: 3.5em;
+    /* border-bottom: 1px dashed #CCC; */
+}
+
+.top section p{
+    font-size: 1.6em;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.git {
+    height: 300px;
+    text-align: center;
+    background-color: rgb(168, 168, 243);
+    padding-bottom: 25px;
+}
+
+.git img {
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+}
+
+.projects {
+    text-align: center;
+    /* background-color: rgba(200, 200, 200, 0.2); */
+    background-color: #E8E8E8;
+}
+
+/* ================================= About css ================================ */
+.about {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #EEE;
+    color: #333;
+}
+
+.about h2,
+.about .p-title {
+    text-align: center;
+}
+
+.container .about-content {
+    margin: 0 auto;
+}
+.about-content {
+    width: 80%;
+}
+
+.about-content p img{
+    display: block;
+    width: 5rem;
+    height:5rem;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.about-content p:last-child {
+    line-height: 1.3em;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+.about div {
+    margin: 10px 0px;
+}
+
+.about div > p {
+    color: #777;
+    font-size: 1.2em;
+}
+
+.about h3 {
+    padding: 10px 0px;
+    text-transform: uppercase;
+    font-size: 1.1em;
+    letter-spacing: 0.2em;
+    font-weight: bold;
+}
+
+
+
+.about li p{
+    padding: 20px 0px 5px 0px;
+    text-transform: uppercase;
+    font-variant: small-caps;
+    letter-spacing: 0.2em;
+}
+
+.progress {
+    width: 100%;
+    height: 10px;
+    border: 2px solid #222;
+    border-radius: 4px;
+    background-color: #FFF;
+    display: inline-block;
+}
+
+.percent-bar{
+    display: inline-block;
+    vertical-align: top;
+    background-color: #444;
+    height: 10px;
+}
+
+.percent {
+    width: 40px;
+    height: 30px;
+    background: #333;
+    position: absolute;
+    top: 5px;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    border-radius: 5px;
+}
+
+.percent-95 {
+    width: 90%;
+}
+
+.percent-90 {
+    width: 85%;
+}
+
+.percent-85 {
+    width: 80%;
+}
+
+.percent-80 {
+    width: 75%;
+}
+
+.percent-60 {
+    width: 55%;
+}
+
+.per-95 {
+    left: 90%;
+}
+
+.per-90 {
+    left: 85%;
+}
+
+.per-85 {
+    left: 80%;
+}
+
+.per-80 {
+    left: 75%;
+}
+
+.per-60 {
+    left: 55%;
+}
+
+.about-hire {
+    text-align: center;
+    clear: both;
+} 
+
+
+.about-hire a {
+    display: inline-block;
+    border: 1px solid #333;
+    box-shadow: inset 0px 0px 5px #333;
+    color: #333;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-weight: 700;
+    padding: 10px;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    width: 200px;
+    border-radius: 4px;
+}
+
+.about-hire a:last-child {
+    background-color: #666;
+    color: #EEE;
+}
+
+.about-info {
+    background-color: rgba(200, 200, 200, 0.2);
+    padding: 0px 20px;
+}
+
+.about-profile,
+.about-skills {
+    width: 100%;
+}
+
+.about-profile p,
+.about-skills p {
+    line-height: 1.3em;
+}
+
+/* ================================= End About css ================================ */
+
+section h2{
+    margin-bottom: 30px;
+    color: #626262;
+}
+
+.card {
+    /* border: 1px solid black; */
+    width: 100%;
+    margin: 10px 0px;
+    height: 200px;
+}
+
+.card img {
+    /* para largura de 320px 
+    width: 270px; */
+    height: 95%;
+    border: 2px solid #B8B8B8;
+    box-shadow: 0px 0px 10px #000;
+    border-radius: 5px;
+    transition: 1s;
+}
+
+.card img:hover {
+    height: 100%;
+    transform: rotate(5deg);
+    transition: all 1s;
+}
+
+footer {
+    background-color: #333;
+    /* padding: 10px; */
+}
+
+footer .bottom {
+    background-color: #222;
+    text-align: center;
+}
+
+.social a {
+    display: inline-block;
+    text-decoration: none;
+    margin: 20px 5px;
+    color: blanchedalmond;
+}
+
+.copy-right{
+    padding-bottom: 20px;
+}
+
+.contact-card {
+    /* border: 1px solid white; */
+    margin: 0 auto;
+    line-height: 1.5em;
+    padding: 0 10px;
+    font-size: 1.2em;
+    text-align: center;
+    color: #FFF;
+    width: 50%;
+}
+
+.contact-card-header {
+    padding-top: 10px;
+}
+
+.contact-card-header img {
+    width: 30px;
+    height: 30px;
+    box-shadow: 0px 0px 6px #B8B8B8;
+    border-radius: 2px;
+}
+
+.contact-card-header p{
+    color: magenta;
+}
+
+.contact-info {
+    display: flex;
+    padding: 10px 0px;
+    font-size: 0.8em;
+    color: white;
+}
+
+.social a{
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 30px;
+    height: 30px;  
+    box-shadow: 0px 0px 6px #B8B8B8;
+    border-radius: 15px; 
+}
+
+.social a[href*="facebook.com"] {
+    background-image: url("../img/face-ico.jpg");
+}
+
+.social a[href*="linkedin.com"] {
+    background-image: url("../img/linkedin-ico.jpg");
+}
+.social a[href*="github.com"] {
+    background-image: url("../img/git-ico.jpg");
+}
+
+.copy-right {
+    color: #666;
+}
+
+.smoothscroll {
+    position: fixed;
+    bottom: 85px;
+    right: 0;
+    padding: 5px;
+    width: 20px;
+    height: 40px;
+    text-align: center;
+    line-height: 60px;
+    background-color: lightgoldenrodyellow;
+    border: 2px solid #999;
+    display: none;
+}
+
+.smoothscroll a {
+    font-size: 3em;
+    margin-left: 3px;
+    margin-top: -8px;
+    display: inline-block;
+    text-decoration: none;
+    transform: rotate(90deg);
+    cursor: pointer;
+}
+
+.smoothscroll:hover {
+    background-color: #777;
+} 
+
+.smoothscroll a:hover {     
+    color: rgb(212, 22, 22);
+}
+
+@media only screen and (min-width: 600px){
+
+    h1 {
+        font-size: 100%;
+    }
+
+    h2 {
+        font-size: 2.5em;
+    }
+
+    .menu-options {
+        right: 50px;
+        display: block;
+        text-align: right;
+        background-color: rgba(5, 5, 5, 0);
+    }
+
+    .sandwich{
+        display: none;
+    }
+
+    header nav ul li {
+        display: inline-block;
+        padding: 11px 10px 8px 10px;
+        text-align: right;
+        line-height: 1;
+        font-size: 1.3em;
+    }
+
+    .card {
+        width: 50%;
+        height: auto;
+        margin-top: 5px;
+        float: left;
+    }
+
+    .projects .card:nth-child(3n) {
+        float: right;
+    }
+
+    .about-content p:last-child {
+        text-align: left;
+        padding-left: 20%;
+        font-size: 1.4em;
+    }
+
+    .card img {
+        width: 90%;
+        height: auto;
+    }
+
+    .contact-card {
+        width: 25%;
+        font-size: 1.2em;
+        float: left;
+    }
+
+    .about-content p img{
+        float: left;
+        width: 6rem;
+        height:6rem;
+        border-radius: 50%;
+        /* padding-right: 20px; */
+    }
+
+    .about-profile {
+        width: 45%;
+        float: left;
+    } 
+
+    .about-skills {
+        width: 45%;
+        float: right;
+    } 
+    
+    .about-hire a {
+        width: 30%;
+    }
+
+    .bottom {
+        clear: both;
+    }
+}
+
+@media only screen and (min-width: 900px){
+    .card {
+        width: 33%;
+    }
+
+    .projects .card:nth-child(3n) {
+        float: left;
+    }
+
+    .projects .card:nth-child(2n) {
+        clear: none;
+    }
+
+}
